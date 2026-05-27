@@ -7,6 +7,7 @@
   <title>Technobuzz Systems | Professional Software & Cybersecurity Company</title>
   <link rel="icon" href="./images/tbslogo.jpeg">
   <link rel="stylesheet" href="./css/professional.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body class="pro-site">
   <header class="pro-header">
@@ -47,12 +48,69 @@
       </div>
     </section>
 
-    <div class="pro-container stats-row">
-      <div class="stat-box reveal"><strong>150+</strong><span>Projects Delivered</span></div>
-      <div class="stat-box reveal"><strong>24/7</strong><span>Support Mindset</span></div>
-      <div class="stat-box reveal"><strong>40%</strong><span>Faster Launch Cycles</span></div>
-      <div class="stat-box reveal"><strong>99.9%</strong><span>Reliability Focus</span></div>
-    </div>
+    <section class="pro-section stats-section" id="company-stats">
+      <div class="pro-container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Company Stats</span>
+          <h2>Trusted metrics from our software delivery journey.</h2>
+          <p>We deliver measurable value through experienced teams, thoughtful process, and strong technical execution.</p>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card reveal">
+            <div class="stat-icon gradient-icon-1">😊</div>
+            <strong>240+</strong>
+            <span>Happy Clients</span>
+          </article>
+          <article class="stat-card reveal">
+            <div class="stat-icon gradient-icon-2">🚀</div>
+            <strong>320+</strong>
+            <span>Completed Projects</span>
+          </article>
+          <article class="stat-card reveal">
+            <div class="stat-icon gradient-icon-3">👥</div>
+            <strong>45</strong>
+            <span>Team Members</span>
+          </article>
+          <article class="stat-card reveal">
+            <div class="stat-icon gradient-icon-4">⏳</div>
+            <strong>12 yrs</strong>
+            <span>Years Experience</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pro-section why-section" id="why-choose-us">
+      <div class="pro-container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Why Choose Us</span>
+          <h2>Built for speed, security, and reliable support at every stage.</h2>
+          <p>Our delivery approach mixes modern engineering, strong processes, and ongoing support to keep your product competitive.</p>
+        </div>
+        <div class="why-grid">
+          <article class="why-card reveal">
+            <div class="why-icon gradient-icon-1">⚡</div>
+            <h3>Fast Delivery</h3>
+            <p>We structure every project for efficient delivery without compromising quality.</p>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-icon gradient-icon-2">🔒</div>
+            <h3>Secure Solutions</h3>
+            <p>Security is built into the process so systems stay reliable and resilient.</p>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-icon gradient-icon-3">👩‍💻</div>
+            <h3>Expert Team</h3>
+            <p>Our experienced designers, developers, and cloud engineers collaborate closely on every project.</p>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-icon gradient-icon-4">📞</div>
+            <h3>24/7 Support</h3>
+            <p>We offer continuous support and maintenance so your product remains stable over time.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
     <section class="pro-section">
       <div class="pro-container">
@@ -101,7 +159,8 @@
         <div class="reveal">
           <span class="eyebrow">Why Choose Us</span>
           <h2>Clean execution, clear communication, and systems that are built correctly.</h2>
-          <p>Our process focuses on understanding the business problem, designing the right architecture, delivering in controlled phases, and supporting the solution after launch.</p>
+   script src="./script.js"></script>
+  <       <p>Our process focuses on understanding the business problem, designing the right architecture, delivering in controlled phases, and supporting the solution after launch.</p>
           <div class="hero-actions">
             <a class="pro-btn primary" href="about.html">Learn About Us</a>
           </div>
@@ -143,30 +202,105 @@
       </div>
     </section>
 
-    <section class="pro-section soft">
-      <div class="pro-container split">
-        <div class="reveal">
-          <span class="eyebrow">Ready to Build?</span>
-          <h2>Let us turn your idea into a secure, professional digital product.</h2>
-          <p>Share your business requirement and we will suggest the right software, security, and delivery approach.</p>
+    <section class="pro-section contact-section" id="contact">
+      <div class="pro-container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Contact Us</span>
+          <h2>Let&rsquo;s start your next software project.</h2>
+          <p>Send us a message or use the contact details below to speak with our team directly.</p>
         </div>
-        <div class="hero-actions reveal">
-          <a class="pro-btn primary" href="contact.html">Contact Us</a>
-          <a class="pro-btn ghost" href="services.html">View Services</a>
+        <div class="contact-grid">
+          <div class="contact-card contact-details reveal">
+            <div class="detail-item">
+              <div class="detail-icon">📞</div>
+              <div>
+                <h3>Phone</h3>
+                <p>+91 98765 43210</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-icon">✉️</div>
+              <div>
+                <h3>Email</h3>
+                <p>hello@technobuzzsolutions.com</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-icon">📍</div>
+              <div>
+                <h3>Address</h3>
+                <p>Pune, Maharashtra, India</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <div>
+                <h3>Connect with us</h3>
+              </div>
+            </div>
+            <div class="social-links">
+              <a class="social-icon" href="#" aria-label="LinkedIn">Li</a>
+              <a class="social-icon" href="#" aria-label="Twitter">Tw</a>
+              <a class="social-icon" href="#" aria-label="Facebook">Fb</a>
+            </div>
+          </div>
+
+          <form class="contact-card contact-form reveal" id="contactForm">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required placeholder="How can we help?"></textarea>
+            </div>
+            <button class="send-button" type="submit">Send Message</button>
+            <p class="form-success" id="formSuccess">Message sent successfully. We will reply soon!</p>
+          </form>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="pro-footer">
+  <footer class="footer-custom">
     <div class="pro-container footer-grid">
-      <div><h4>Technobuzz Systems</h4><p>Professional software development, cybersecurity, cloud, AI, and IT consulting company.</p></div>
-      <div><h4>Company</h4><div class="footer-links"><a href="about.html">About</a><a href="career.html">Careers</a><a href="contact.html">Contact</a></div></div>
-      <div><h4>Services</h4><div class="footer-links"><a href="services.html">Software</a><a href="services.html">Cybersecurity</a><a href="services.html">Cloud</a></div></div>
-      <div><h4>Contact</h4><p>Pune, Maharashtra, India<br>contact@technobuzzsystems.com<br>+91 98765 43210</p></div>
+      <div>
+        <h4>TechnoBuzz Solutions</h4>
+        <p>Modern software solutions to help your business grow with clean design, secure systems, and reliable delivery.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <div class="footer-links">
+          <a href="services.html">Web Development</a>
+          <a href="services.html">Mobile App Development</a>
+          <a href="services.html">UI/UX Design</a>
+          <a href="services.html">Cloud Solutions</a>
+        </div>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <div class="footer-contacts">
+          <p>Phone: +91 98765 43210</p>
+          <p>Email: hello@technobuzzsolutions.com</p>
+          <p>Address: Pune, Maharashtra, India</p>
+        </div>
+      </div>
     </div>
-    <div class="pro-container copyright">© 2026 Technobuzz Systems. All rights reserved.</div>
+    <div class="footer-bottom">© 2026 TechnoBuzz Solutions. All rights reserved.</div>
   </footer>
   <script src="./js/professional.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
