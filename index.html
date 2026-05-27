@@ -3,170 +3,261 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Technobuzz Systems delivers professional software development, cybersecurity, cloud, AI, and IT consulting services.">
-  <title>Technobuzz Systems | Professional Software & Cybersecurity Company</title>
+  <meta name="description" content="TechnoBuzz Solutions delivers modern software, mobile, UI/UX, and cloud solutions for businesses that want to grow with confidence.">
+  <title>TechnoBuzz Solutions | Modern Software Company</title>
   <link rel="icon" href="./images/tbslogo.jpeg">
-  <link rel="stylesheet" href="./css/professional.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
-<body class="pro-site">
-  <header class="pro-header">
-    <div class="pro-container pro-nav">
-      <a class="pro-brand" href="index.html"><img src="./images/tbslogo.jpeg" alt="Technobuzz Systems logo"><span>Technobuzz Systems</span></a>
-      <nav class="pro-links" data-menu>
-        <a class="active" href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="career.html">Careers</a>
-        <a href="contact.html">Contact</a>
+<body>
+  <header>
+    <div class="container navbar">
+      <a class="logo" href="#home">
+        <span class="logo-mark">T</span>
+        <span>TechnoBuzz Solutions</span>
+      </a>
+      <nav data-menu>
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </nav>
-      <a class="pro-btn primary" href="contact.html">Get Consultation</a>
-      <button class="pro-menu-btn" data-menu-button>Menu</button>
+      <div class="nav-actions">
+        <a class="button secondary" href="#login">Login</a>
+        <button class="button primary mobile-menu" data-menu-button aria-expanded="false">Menu</button>
+      </div>
     </div>
   </header>
 
   <main>
-    <section class="hero-pro">
-      <div class="pro-container hero-inner">
-        <div class="reveal">
-          <span class="eyebrow">Enterprise Software · Cybersecurity · Cloud</span>
-          <h1>Secure. Scale. Transform.</h1>
-          <p>Technobuzz Systems builds secure software, modern cloud platforms, intelligent data solutions, and reliable digital products for growing companies.</p>
-          <div class="hero-actions">
-            <a class="pro-btn cyan" href="contact.html">Start a Project</a>
-            <a class="pro-btn ghost" href="services.html">Explore Services</a>
+    <section id="home" class="hero container">
+      <div class="hero-grid">
+        <div class="hero-copy fade-in">
+          <span class="eyebrow">Modern software solutions for ambitious teams</span>
+          <h1>Build fast, secure, and intuitive digital products that grow your business.</h1>
+          <p>TechnoBuzz Solutions helps companies create elegant web experiences, powerful mobile apps, and cloud-native systems with a user-first mindset.</p>
+          <div class="hero-buttons">
+            <a class="button primary" href="#contact">Get Started</a>
+            <a class="button secondary" href="#about">Contact Us</a>
           </div>
         </div>
-        <div class="hero-card reveal">
-          <div class="security-panel">
-            <div class="signal"><span>Application Security</span><strong>98%</strong></div>
-            <div class="signal"><span>Cloud Readiness</span><strong>95%</strong></div>
-            <div class="signal"><span>Delivery Automation</span><strong>91%</strong></div>
-            <div class="signal"><span>Client Satisfaction</span><strong>99%</strong></div>
+
+        <div class="hero-visual fade-in delay-1">
+          <div class="hero-illustration">
+            <div class="hero-device">
+              <div class="device-screen">
+                <div class="app-bar">
+                  <span>TechnoBuzz</span>
+                  <span>9:41 AM</span>
+                </div>
+                <div class="graphic-panel">
+                  <span>Project Dashboard</span>
+                  <div class="graphic-chart">Design | Development | Launch</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <div class="pro-container stats-row">
-      <div class="stat-box reveal"><strong>150+</strong><span>Projects Delivered</span></div>
-      <div class="stat-box reveal"><strong>24/7</strong><span>Support Mindset</span></div>
-      <div class="stat-box reveal"><strong>40%</strong><span>Faster Launch Cycles</span></div>
-      <div class="stat-box reveal"><strong>99.9%</strong><span>Reliability Focus</span></div>
-    </div>
+    <section id="services" class="section container">
+      <div class="section-title fade-in">
+        <span>Our Services</span>
+        <h2>The expertise your product needs.</h2>
+        <p>From web platforms to mobile experiences and cloud architecture, our team makes every step feel polished and dependable.</p>
+      </div>
+      <div class="grid-4">
+        <article class="card fade-in delay-1">
+          <div class="card-icon">🌐</div>
+          <h3>Web Development</h3>
+          <p>Responsive websites, progressive web apps, and SaaS solutions built for performance and modern usability.</p>
+        </article>
+        <article class="card fade-in delay-2">
+          <div class="card-icon">📱</div>
+          <h3>Mobile App Development</h3>
+          <p>Native and cross-platform apps with strong user experience, offline support, and smooth performance.</p>
+        </article>
+        <article class="card fade-in delay-3">
+          <div class="card-icon">🎨</div>
+          <h3>UI/UX Design</h3>
+          <p>Interfaces that feel intuitive, polished, and accessible, with a focus on real customer engagement.</p>
+        </article>
+        <article class="card fade-in delay-1">
+          <div class="card-icon">☁️</div>
+          <h3>Cloud Solutions</h3>
+          <p>Reliable cloud architecture, automation, and managed hosting for projects that need to scale.</p>
+        </article>
+      </div>
+    </section>
 
-    <section class="pro-section">
-      <div class="pro-container">
-        <div class="section-head reveal">
-          <span class="eyebrow">Company Overview</span>
-          <h2>A professional technology partner for modern businesses.</h2>
-          <p>We combine product engineering, security, cloud infrastructure, and digital consulting to help companies build reliable systems and better customer experiences.</p>
+    <section class="section container">
+      <div class="section-title fade-in">
+        <span>Company Stats</span>
+        <h2>Proven results that help teams move faster.</h2>
+      </div>
+      <div class="grid-4 stats-grid">
+        <div class="card stat-card fade-in delay-1">
+          <strong>120+</strong>
+          <span>Clients served</span>
         </div>
-        <div class="grid-3">
-          <article class="pro-card reveal">
-            <div class="icon-box">01</div>
-            <h3>Software Engineering</h3>
-            <p>Custom web apps, mobile apps, SaaS platforms, APIs, dashboards, and enterprise systems built for long-term growth.</p>
-          </article>
-          <article class="pro-card reveal">
-            <div class="icon-box">02</div>
-            <h3>Cybersecurity</h3>
-            <p>Security audits, vulnerability assessment, SOC support, cloud security, endpoint protection, and incident readiness.</p>
-          </article>
-          <article class="pro-card reveal">
-            <div class="icon-box">03</div>
-            <h3>Cloud & AI</h3>
-            <p>Cloud migration, DevOps automation, data analytics, AI chatbots, and business intelligence solutions.</p>
-          </article>
+        <div class="card stat-card fade-in delay-2">
+          <strong>250+</strong>
+          <span>Projects completed</span>
+        </div>
+        <div class="card stat-card fade-in delay-3">
+          <strong>35</strong>
+          <span>Team members</span>
+        </div>
+        <div class="card stat-card fade-in delay-1">
+          <strong>12 yrs</strong>
+          <span>Industry experience</span>
         </div>
       </div>
     </section>
 
-    <section class="pro-section soft">
-      <div class="pro-container">
-        <div class="section-head reveal">
-          <span class="eyebrow">Services</span>
-          <h2>Everything needed to design, build, secure, and scale software.</h2>
-        </div>
-        <div class="grid-4">
-          <article class="pro-card reveal"><div class="icon-box">⌘</div><h3>Web Development</h3><p>Fast, responsive, SEO-friendly websites and business applications.</p></article>
-          <article class="pro-card reveal"><div class="icon-box">▣</div><h3>Mobile Apps</h3><p>Android and iOS applications with clean interfaces and reliable workflows.</p></article>
-          <article class="pro-card reveal"><div class="icon-box">◇</div><h3>Cybersecurity</h3><p>Security testing, monitoring, hardening, and compliance support.</p></article>
-          <article class="pro-card reveal"><div class="icon-box">☁</div><h3>Cloud & DevOps</h3><p>AWS, Azure, Docker, CI/CD, automation, and scalable infrastructure.</p></article>
-        </div>
+    <section id="about" class="section container">
+      <div class="section-title fade-in">
+        <span>Why Choose Us</span>
+        <h2>Trusted delivery, secure systems, and reliable support.</h2>
+        <p>We combine experience, speed, and continuous support so your project launches with confidence and keeps improving.</p>
       </div>
-    </section>
-
-    <section class="pro-section">
-      <div class="pro-container split">
-        <div class="reveal">
-          <span class="eyebrow">Why Choose Us</span>
-          <h2>Clean execution, clear communication, and systems that are built correctly.</h2>
-          <p>Our process focuses on understanding the business problem, designing the right architecture, delivering in controlled phases, and supporting the solution after launch.</p>
-          <div class="hero-actions">
-            <a class="pro-btn primary" href="about.html">Learn About Us</a>
+      <div class="grid-4 features-grid">
+        <div class="feature-card fade-in delay-1">
+          <span class="feature-icon">⚡</span>
+          <div>
+            <h3>Fast Delivery</h3>
+            <p>Focused teams that move quickly without sacrificing quality.</p>
           </div>
         </div>
-        <div class="feature-list reveal">
-          <div><strong>Security-first delivery</strong><br>We include privacy, access control, and secure coding practices from the beginning.</div>
-          <div><strong>Responsive modern design</strong><br>Every page and interface is built to work smoothly across desktop, tablet, and mobile.</div>
-          <div><strong>Scalable architecture</strong><br>We plan for growth in users, traffic, data, integrations, and operational needs.</div>
-          <div><strong>Long-term support</strong><br>We provide maintenance, improvements, performance checks, and technical support.</div>
+        <div class="feature-card fade-in delay-2">
+          <span class="feature-icon">🔒</span>
+          <div>
+            <h3>Secure Solutions</h3>
+            <p>Data protection, secure architecture, and privacy-aware development.</p>
+          </div>
+        </div>
+        <div class="feature-card fade-in delay-3">
+          <span class="feature-icon">👩‍💻</span>
+          <div>
+            <h3>Expert Team</h3>
+            <p>Designers, developers, and cloud experts working together on every project.</p>
+          </div>
+        </div>
+        <div class="feature-card fade-in delay-1">
+          <span class="feature-icon">📞</span>
+          <div>
+            <h3>24/7 Support</h3>
+            <p>Ongoing maintenance and support so your product stays stable.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="pro-section dark-band">
-      <div class="pro-container">
-        <div class="section-head reveal">
-          <span class="eyebrow">Industries</span>
-          <h2>Digital solutions for companies that need reliability.</h2>
-          <p>We work with startups, SMEs, education, healthcare, retail, finance, logistics, and professional service businesses.</p>
+    <section class="section container">
+      <div class="section-title fade-in">
+        <span>Testimonials</span>
+        <h2>Feedback from clients we helped grow.</h2>
+      </div>
+      <div class="grid-3 testimonials">
+        <article class="card testimonial-card fade-in delay-1">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"TechnoBuzz brought our vision to life with clean design and fast delivery. Their team made our launch effortless."</p>
+          <div class="review-author">
+            <strong>Priya S.</strong>
+            <span>Product Lead, Fintech</span>
+          </div>
+        </article>
+        <article class="card testimonial-card fade-in delay-2">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"The mobile app they built is intuitive and stable. Support has been excellent since day one."</p>
+          <div class="review-author">
+            <strong>Rahul K.</strong>
+            <span>CTO, Logistics</span>
+          </div>
+        </article>
+        <article class="card testimonial-card fade-in delay-3">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Quality, communication, and speed were all outstanding. TechnoBuzz really understood our needs."</p>
+          <div class="review-author">
+            <strong>Aditi M.</strong>
+            <span>Founder, HealthTech</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="cta-banner fade-in">
+        <div>
+          <h2>Ready to grow your business?</h2>
+          <p>Start a project with TechnoBuzz Solutions and bring your next digital product to life.</p>
         </div>
-        <div class="grid-4">
-          <article class="pro-card reveal"><h3>FinTech</h3><p>Secure portals, dashboards, compliance workflows, and integrations.</p></article>
-          <article class="pro-card reveal"><h3>Healthcare</h3><p>Patient systems, data privacy, appointment workflows, and reporting.</p></article>
-          <article class="pro-card reveal"><h3>E-Commerce</h3><p>Stores, payment flow, inventory, order tracking, and customer apps.</p></article>
-          <article class="pro-card reveal"><h3>Education</h3><p>LMS platforms, attendance systems, admin portals, and student apps.</p></article>
+        <div class="cta-actions">
+          <a class="button primary" href="#contact">Start a Project</a>
         </div>
       </div>
     </section>
 
-    <section class="pro-section">
-      <div class="pro-container">
-        <div class="section-head reveal">
-          <span class="eyebrow">Technology Stack</span>
-          <h2>Modern tools for professional software delivery.</h2>
-        </div>
-        <div class="tag-list reveal">
-          <span class="tag">React</span><span class="tag">Next.js</span><span class="tag">Node.js</span><span class="tag">TypeScript</span><span class="tag">Python</span><span class="tag">AWS</span><span class="tag">Azure</span><span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">PostgreSQL</span><span class="tag">MongoDB</span><span class="tag">AI/ML</span>
-        </div>
+    <section id="contact" class="section container">
+      <div class="section-title fade-in">
+        <span>Contact</span>
+        <h2>Let&rsquo;s connect and plan your next step.</h2>
       </div>
-    </section>
-
-    <section class="pro-section soft">
-      <div class="pro-container split">
-        <div class="reveal">
-          <span class="eyebrow">Ready to Build?</span>
-          <h2>Let us turn your idea into a secure, professional digital product.</h2>
-          <p>Share your business requirement and we will suggest the right software, security, and delivery approach.</p>
+      <div class="grid-2">
+        <div class="card fade-in delay-1">
+          <h3>Contact Info</h3>
+          <p>Reach out for a free consultation or project estimate.</p>
+          <ul class="footer-list">
+            <li>Email: hello@technobuzzsolutions.com</li>
+            <li>Phone: +91 98765 43210</li>
+            <li>Location: Pune, Maharashtra, India</li>
+          </ul>
         </div>
-        <div class="hero-actions reveal">
-          <a class="pro-btn primary" href="contact.html">Contact Us</a>
-          <a class="pro-btn ghost" href="services.html">View Services</a>
+        <div class="card fade-in delay-2">
+          <h3>Quick Links</h3>
+          <div class="footer-links">
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#home">Home</a>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="pro-footer">
-    <div class="pro-container footer-grid">
-      <div><h4>Technobuzz Systems</h4><p>Professional software development, cybersecurity, cloud, AI, and IT consulting company.</p></div>
-      <div><h4>Company</h4><div class="footer-links"><a href="about.html">About</a><a href="career.html">Careers</a><a href="contact.html">Contact</a></div></div>
-      <div><h4>Services</h4><div class="footer-links"><a href="services.html">Software</a><a href="services.html">Cybersecurity</a><a href="services.html">Cloud</a></div></div>
-      <div><h4>Contact</h4><p>Pune, Maharashtra, India<br>contact@technobuzzsystems.com<br>+91 98765 43210</p></div>
+  <footer class="footer container">
+    <div class="footer-grid fade-in">
+      <div>
+        <h4>TechnoBuzz Solutions</h4>
+        <p>Modern software, mobile, design, and cloud services for ambitious businesses.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <div class="footer-social">
+          <a class="social-icon" href="#">Dr</a>
+          <a class="social-icon" href="#">Li</a>
+          <a class="social-icon" href="#">Tw</a>
+        </div>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>hello@technobuzzsolutions.com<br>+91 98765 43210</p>
+      </div>
     </div>
-    <div class="pro-container copyright">© 2026 Technobuzz Systems. All rights reserved.</div>
+    <div class="bottom-note">© 2026 TechnoBuzz Solutions. All rights reserved.</div>
   </footer>
-  <script src="./js/professional.js"></script>
+
+  <script src="./script.js"></script>
 </body>
 </html>

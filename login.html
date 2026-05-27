@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechnoBuzz Login</title>
+  <link rel="icon" href="./images/tbslogo.jpeg">
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="login-header">
+      <a class="brand-link" href="index.html">
+        <img src="./images/tbslogo.jpeg" alt="TechnoBuzz logo">
+        <span>TechnoBuzz</span>
+      </a>
+      <a class="nav-cta" href="contact.html">Need help?</a>
+    </header>
+
+    <main class="login-layout">
+      <section class="login-panel login-intro">
+        <div class="intro-copy">
+          <span class="eyebrow">Secure access for teams</span>
+          <h1>Login to your TechnoBuzz workspace</h1>
+          <p>Fast, modern authentication designed for remote teams and enterprise workflows. Keep your account secure with biometric-ready UI, password protection, and recovery support.</p>
+          <ul class="feature-list">
+            <li>Dark mode first interface</li>
+            <li>Animated form interactions</li>
+            <li>Mobile-ready layout</li>
+            <li>Secure password recovery</li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <span class="glow-circle"></span>
+          <span class="glow-ring"></span>
+          <span class="glow-bar"></span>
+        </div>
+      </section>
+
+      <section class="login-panel login-form-card">
+        <div class="card-header">
+          <div>
+            <p class="eyebrow">Welcome back</p>
+            <h2>Sign in to continue</h2>
+          </div>
+          <span class="status-chip">Dark theme</span>
+        </div>
+
+        <form id="signInForm" class="auth-form" novalidate>
+          <div class="field-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="you@technobuzz.com" required>
+            <p class="field-error" id="emailError"></p>
+          </div>
+
+          <div class="field-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" minlength="6" required>
+            <p class="field-error" id="passwordError"></p>
+          </div>
+
+          <div class="form-row">
+            <label class="checkbox-label">
+              <input type="checkbox" id="rememberMe" name="rememberMe">
+              Remember me
+            </label>
+            <button type="button" class="text-link" id="forgotToggle">Forgot password?</button>
+          </div>
+
+          <button type="submit" class="primary-btn">Sign In</button>
+          <p class="form-message" id="loginMessage"></p>
+        </form>
+
+        <div class="recovery-panel" id="recoveryPanel" hidden>
+          <div class="recovery-header">
+            <div>
+              <p class="eyebrow">Lost access?</p>
+              <h3>Reset your password</h3>
+            </div>
+            <button type="button" class="ghost-btn" id="closeRecovery">Close</button>
+          </div>
+
+          <form id="recoveryForm" class="auth-form" novalidate>
+            <div class="field-group">
+              <label for="recoveryEmail">Email address</label>
+              <input type="email" id="recoveryEmail" name="recoveryEmail" placeholder="you@technobuzz.com" required>
+              <p class="field-error" id="recoveryEmailError"></p>
+            </div>
+            <button type="submit" class="secondary-btn">Send reset link</button>
+            <p class="form-message" id="recoveryMessage"></p>
+          </form>
+        </div>
+
+        <div class="card-footnote">
+          <span>New to TechnoBuzz?</span>
+          <a href="contact.html">Request an invite</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./js/login.js"></script>
+</body>
+</html>
